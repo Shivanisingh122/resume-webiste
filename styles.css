@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #e76f51;
+}
+
+header .highlight {
+    color: #e76f51;
+    font-weight: bold;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #2a9d8f;
+    margin: 10px 0 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left-column {
+    width: 30%;
+    background: #f0efeb;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.right-column {
+    width: 68%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    border-bottom: 3px solid #e76f51;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    color: #264653;
+}
+
+.contact p, .skills p, .education p {
+    margin: 10px 0;
+}
+
+.contact a, .skills a, .education a {
+    color: #e76f51;
+    text-decoration: none;
+}
+
+.contact a:hover, .skills a:hover, .education a:hover {
+    text-decoration: underline;
+}
+
+.job h4, .project h4 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+    color: #2a9d8f;
+}
+
+.job p, .project p {
+    margin: 5px 0;
+    font-style: italic;
+    color: #264653;
+}
+
+.job ul, .project ul {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.job ul li, .project ul li {
+    margin: 5px 0;
+    color: #264653;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+    }
+}
